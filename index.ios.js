@@ -1,8 +1,8 @@
-import React           from 'react';
+import React                 from 'react';
 import { View, AppRegistry } from 'react-native';
 
-import Header from './src/components/header';
-import AlbumList from './src/components/AlbumList.js'
+import Header    from './src/components/header';
+import AlbumList from './src/components/AlbumList'
 
 
 // Outputs list of component names and src to be used in HTML head

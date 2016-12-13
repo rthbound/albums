@@ -4,6 +4,7 @@ import axios from 'axios';
 
 class AlbumList extends Component {
   state = {
+    albums: []
   };
 
   componentWillMount() {
@@ -15,7 +16,7 @@ class AlbumList extends Component {
     console.log(this.state)
     return (
       <View>
-        <Text>Hello</Text>
+        <Text>Album List!!! !!! !!! !!! !!! !!! !!! !!! !!! !!!</Text>
       </View>
     )
   }
