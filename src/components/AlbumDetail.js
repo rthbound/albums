@@ -1,12 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 const AlbumDetail = (props) => {
   return (
-    <View style={viewStyle}>
-      <Text style={textStyle}>{props.headerText}</Text>
+    <View>
+      <Text
+        key={props.album.title}>
+        {props.album.title}
+      </Text>
     </View>
   )
 }
 
-export default Album;
+export default AlbumDetail;
